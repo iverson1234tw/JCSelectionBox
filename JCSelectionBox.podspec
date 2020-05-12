@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: JCSelectionBox, an easy way to create a selection box. 一個可快速生成選擇工具的庫.
                        DESC
 
-  s.homepage         = 'https://github.com/Chen Hung-Wei/JCSelectionBox'
+  s.homepage         = 'https://github.com/iverson1234tw/JCSelectionBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chen-Hung-Wei' => 'reno65072013@gmail.com' }
