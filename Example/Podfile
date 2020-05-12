@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JCSelectionBox_Example' do
+  pod 'JCSelectionBox', :path => '../'
+
+  target 'JCSelectionBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
