@@ -1,6 +1,6 @@
 # JCSelectionBox
 
-[![CI Status](https://img.shields.io/travis/Chen Hung-Wei/JCSelectionBox.svg?style=flat)](https://travis-ci.org/Chen Hung-Wei/JCSelectionBox)
+[![CI Status](https://img.shields.io/travis/Chen-Hung-Wei/JCSelectionBox.svg?style=flat)](https://travis-ci.org/Chen-Hung-Wei/JCSelectionBox)
 [![Version](https://img.shields.io/cocoapods/v/JCSelectionBox.svg?style=flat)](https://cocoapods.org/pods/JCSelectionBox)
 [![License](https://img.shields.io/cocoapods/l/JCSelectionBox.svg?style=flat)](https://cocoapods.org/pods/JCSelectionBox)
 [![Platform](https://img.shields.io/cocoapods/p/JCSelectionBox.svg?style=flat)](https://cocoapods.org/pods/JCSelectionBox)
