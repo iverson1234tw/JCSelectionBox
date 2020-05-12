@@ -24,6 +24,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AF52549401C3DD55129DFFBE /* Pods_JCSelectionBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B717C7253828AC3D9752BF0F /* Pods_JCSelectionBox_Example.framework */; };
+		BBCA949A246A40B100DF9290 /* OptionalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA9499246A40B100DF9290 /* OptionalCell.m */; };
+		BBCA949D246A40C000DF9290 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA949C246A40C000DF9290 /* ColorCell.m */; };
+		BBCA94A0246A40CE00DF9290 /* NoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA949F246A40CE00DF9290 /* NoneCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		21190DF1F43F726BC630DDCC /* Pods-JCSelectionBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSelectionBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-JCSelectionBox_Tests/Pods-JCSelectionBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		31F5795579BA660E46047293 /* JCSelectionBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JCSelectionBox.podspec; path = ../JCSelectionBox.podspec; sourceTree = "<group>"; };
-		519FD339144CB90A88B2EB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31F5795579BA660E46047293 /* JCSelectionBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCSelectionBox.podspec; path = ../JCSelectionBox.podspec; sourceTree = "<group>"; };
+		519FD339144CB90A88B2EB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		549BCC6595A004DDD271FBB7 /* Pods-JCSelectionBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSelectionBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-JCSelectionBox_Example/Pods-JCSelectionBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JCSelectionBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCSelectionBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +66,14 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AF6A048171617F49BD4FB8 /* Pods_JCSelectionBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCSelectionBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5E9A248EACF02EE5E5AB5E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5E9A248EACF02EE5E5AB5E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B717C7253828AC3D9752BF0F /* Pods_JCSelectionBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCSelectionBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA9498246A40B100DF9290 /* OptionalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalCell.h; sourceTree = "<group>"; };
+		BBCA9499246A40B100DF9290 /* OptionalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalCell.m; sourceTree = "<group>"; };
+		BBCA949B246A40C000DF9290 /* ColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCell.h; sourceTree = "<group>"; };
+		BBCA949C246A40C000DF9290 /* ColorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCell.m; sourceTree = "<group>"; };
+		BBCA949E246A40CE00DF9290 /* NoneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoneCell.h; sourceTree = "<group>"; };
+		BBCA949F246A40CE00DF9290 /* NoneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoneCell.m; sourceTree = "<group>"; };
 		DEDD04F1BF56D01253BB812B /* Pods-JCSelectionBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSelectionBox_Example.release.xcconfig"; path = "Target Support Files/Pods-JCSelectionBox_Example/Pods-JCSelectionBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB36366D991E2E50ADDEAA3A /* Pods-JCSelectionBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCSelectionBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JCSelectionBox_Tests/Pods-JCSelectionBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +112,6 @@
 				EB36366D991E2E50ADDEAA3A /* Pods-JCSelectionBox_Tests.debug.xcconfig */,
 				21190DF1F43F726BC630DDCC /* Pods-JCSelectionBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +152,7 @@
 		6003F593195388D20070C39A /* Example for JCSelectionBox */ = {
 			isa = PBXGroup;
 			children = (
+				BBCA9497246A409400DF9290 /* Cell */,
 				6003F59C195388D20070C39A /* JCAppDelegate.h */,
 				6003F59D195388D20070C39A /* JCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -197,6 +206,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BBCA9497246A409400DF9290 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA9498246A40B100DF9290 /* OptionalCell.h */,
+				BBCA9499246A40B100DF9290 /* OptionalCell.m */,
+				BBCA949B246A40C000DF9290 /* ColorCell.h */,
+				BBCA949C246A40C000DF9290 /* ColorCell.m */,
+				BBCA949E246A40CE00DF9290 /* NoneCell.h */,
+				BBCA949F246A40CE00DF9290 /* NoneCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +270,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Chen Hung-Wei";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K2499D8WGX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +283,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCA949D246A40C000DF9290 /* ColorCell.m in Sources */,
+				BBCA94A0246A40CE00DF9290 /* NoneCell.m in Sources */,
 				6003F59E195388D20070C39A /* JCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BBCA949A246A40B100DF9290 /* OptionalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +523,7 @@
 			baseConfigurationReference = 549BCC6595A004DDD271FBB7 /* Pods-JCSelectionBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2499D8WGX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCSelectionBox/JCSelectionBox-Prefix.pch";
 				INFOPLIST_FILE = "JCSelectionBox/JCSelectionBox-Info.plist";
@@ -510,6 +540,7 @@
 			baseConfigurationReference = DEDD04F1BF56D01253BB812B /* Pods-JCSelectionBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2499D8WGX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCSelectionBox/JCSelectionBox-Prefix.pch";
 				INFOPLIST_FILE = "JCSelectionBox/JCSelectionBox-Info.plist";

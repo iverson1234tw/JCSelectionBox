@@ -1,0 +1,16 @@
+PODS:
+  - JCSelectionBox (0.1.0)
+
+DEPENDENCIES:
+  - JCSelectionBox (from `../`)
+
+EXTERNAL SOURCES:
+  JCSelectionBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCSelectionBox: f234557ff3eccf10e51094b290dcf6e479bb725e
+
+PODFILE CHECKSUM: 77c644954bac50620f2a71eaf44202e63f0713d7
+
+COCOAPODS: 1.9.1

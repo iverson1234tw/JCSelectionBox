@@ -14,3 +14,8 @@
     @import UIKit;
     @import Foundation;
 #endif
+
+#define SCREEN_WIDTH         [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT         [UIScreen mainScreen].bounds.size.height
+
+#define J_Gray [UIColor colorWithRed:236/255.0f green:236/255.0 blue:236/255.0 alpha:1]

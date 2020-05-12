@@ -9,5 +9,6 @@
 @import UIKit;
 
 @interface JCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *navBar;
 
 @end

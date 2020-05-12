@@ -1,0 +1,6 @@
+framework module JCSelectionBox {
+  umbrella header "JCSelectionBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
